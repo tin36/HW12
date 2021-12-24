@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Это все, что умееют наши кандидаты...</h1>
+{% for i in s %}
+<p><a href="/skills/{{i}}">{{ i }}</a></p>
+{% endfor %}
+</body>
+</html>

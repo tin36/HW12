@@ -1,0 +1,43 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+}
+
+/* Потом селекторы по тегам */
+
+html {
+width: 300px;
+    margin: 0px auto;
+    main {
+    font-family: arial;
+    width: 300px;
+    margin: 0px auto;
+}
+}
+
+
+p {font-size: 100%;}
+
+h1 {
+}
+
+.name_main {background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px}
+
+.img_main {padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px}
+
+.list {background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px}

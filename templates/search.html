@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/style.css" type="text/css" />
+</head>
+<body>
+<h1>Все, что мы смогли найти..</h1>
+{% for z in candidates %}
+{% if z['name'] in locl %}
+<p><a href="/candidate/{{ z['id'] }}">{{ z['name'] }}</a></p>
+{% endif %}
+{% endfor %}
+</body>
+</html>
